@@ -1,6 +1,6 @@
 *{
 margin:0;
-list-style: none;
+
 color: white;
 }
 body{
@@ -111,7 +111,7 @@ letter-spacing: 0.05em;
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+align-items: left;
 width: 400px;
 font-family: Rubik;
 font-style: normal;
@@ -128,12 +128,40 @@ line-height: 46px;
     line-height: 199.5%;
     letter-spacing: 0.05em;
 }
-.card ul{
-    padding-top:50px ;
-}
-.card li{
-    padding-right: 10px;
+.card h2{
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-left: 0px;
+    font-family: Rubik;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 46px;
 }
 .logos{
+    padding-left: 80px;
     width: 120px;
+}
+.card .title{
+    display: flex;
+    padding-left:70px;
+}
+hr{
+    margin: 0 auto;
+    width: 80%;
+height: 0px;
+border: 1px solid #FFFFFF;
+}
+.ReachUs{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    list-style:circle;
+
+}
+.input{
+    min-width: 500px;
+    
 }
