@@ -1,18 +1,16 @@
 *{
 margin:0;
-
-color: white;
 }
 body{
     background-color: #272626;
     /* background: linear-gradient(165.58deg, rgba(53, 53, 53, 0.53) 0%, #262628 194.33%); */
-
+    color: white;
 }
-ul{
+header ul{
     float: right;
     list-style: none;
 }
-li{
+header li{
     float: left;
 }
 .logo{
@@ -90,7 +88,6 @@ letter-spacing: 0.05em;
     margin: 0px 40px;
     background-color: black;
     border-radius: 53px 53px 0px 0px;
-    height: 4000px;
 }
 
 .Sheet h1{
@@ -105,6 +102,7 @@ letter-spacing: 0.05em;
 .cards{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .card{
     margin: 100px 10px;
@@ -153,15 +151,119 @@ height: 0px;
 border: 1px solid #FFFFFF;
 }
 .ReachUs{
-    background-color: green;
+    color: #FFFFFF9E;    ;
+    
+   margin-top: 200px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
-.text{
-    list-style:circle;
+.ReachUs input{
+    padding: 10px;
+    margin-left:  100px;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.58);
+        display: block;
+    border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 8px;
+width: 350px;
+height: 62px;
+}
+.ReachUs textarea{
+    margin-left:  100px;
+    margin-bottom: 30px;
+
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 8px;
+background: rgba(0, 0, 0, 0.58);
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 8px;
+width: 525px;
+height: 359px;
 
 }
-.input{
-    min-width: 500px;
-    
+.ReachUs button{
+    margin-left:  100px;
+    margin-bottom: 30px;
+    display: block;
+    color: black;
+    width: 231px;
+height: 62px;
+background: #FFFFFF;
+border-radius: 27.5px;
+font-family: Rubik;
+font-style: normal;
+font-weight: bolder;
+font-size: 32px;
+line-height: 38px;
+}
+.ReachUs ul{
+    padding-top:30px ;
+    list-style-type: circle;
+    font-weight: 300;
+font-size: 20px;
+line-height: 180%;
+/* or 41px */
+
+letter-spacing: 0.155em;
+}
+.ReachUs .text{
+    margin-left:20  px ;
+}
+.text h2{
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+}
+.text{
+    position: relative;
+    bottom: 100px;
+    left: 40px;
+    width: 600px;
+height: 382px;
+}
+.icons{
+    padding-left: 40px;
+
+}
+.icons img{
+height: 38px;
+    margin-top: 80px;
+padding-right: 40px;
+}
+footer{
+    margin-top: 100px;
+    color: black;
+    height: 377px;
+    background-color:#E5E4E2 ;
+}
+footer ul{
+    padding-left: 70px;
+padding-top: 39px;
+    font-weight: 300;
+font-size: 20px;
+line-height: 133%;
+/* or 27px */
+
+letter-spacing: -0.065em;
+}
+
+footer h2{
+padding-left: 70px;
+padding-top: 39px;
+    font-size: 67px;
+line-height: 79px;
+text-transform: capitalize;
+}
+
+footer header{
+    position: relative;
+    bottom: 180px;
+}
+footer header .contact{
+    border: 2px solid #000000;
 }
